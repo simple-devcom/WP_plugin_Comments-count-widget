@@ -133,8 +133,8 @@ class users_widget extends WP_Widget
                     if (in_array(strtolower($role['name']), $instance['user_role'])) {
                         $checked = "checked='checked'";
                     } ?>
-                <input type="checkbox" class="checkbox" id="<?php echo $this->get_field_id('user_role'); ?>" name="<?php echo $this->get_field_name('user_role[]'); ?>" value="<?php echo strtolower($role['name']); ?>"  <?php echo $checked; ?>/>
-                <label for="<?php echo $this->get_field_id('user_role'); ?>"><?php echo $role['name']; ?></label><br />
+                <input type="checkbox" class="checkbox" id="<?php echo $role['name']; ?>" name="<?php echo $this->get_field_name('user_role[]'); ?>" value="<?php echo strtolower($role['name']); ?>"  <?php echo $checked; ?>/>
+                <label for="<?php echo $role['name']; ?>"><?php echo $role['name']; ?></label><br />
               <?php
                 } ?>
             </div>

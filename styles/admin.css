@@ -1,3 +1,11 @@
-.select_role{
+.select_role {
   display: block;
+}
+
+.widgetControls div {
+  padding-bottom: 10px;
+}
+
+.widgetControls label {
+  font-size: 16px;
 }
