@@ -1,0 +1,37 @@
+.usersComments {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.usersComments__wr {
+  border-radius: 5px;
+  border: 2px solid #000;
+  padding: 15px;
+  background-color: rgba(255, 255, 255, 1);
+  color: rgba(0, 0, 0, 1);
+}
+
+.usersComments__user {
+  padding: 10px 0;
+}
+
+.usersComments__user-name {
+  font-style: italic;
+}
+
+.usersComments__user-role {}
+
+.usersComments__user-id {}
+
+.usersComments__user-count {
+  font-weight: bold;
+}
+
+.is-dark-theme.is-dark-theme .usersComments__wr {
+  border: 2px solid #fff;
+  background-color: rgba(0, 0, 0, 1);
+  color: rgba(255, 255, 255, 1);
+}
